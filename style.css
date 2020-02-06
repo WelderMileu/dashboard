@@ -197,6 +197,7 @@ a {
 	color: var(--scale01);
 	margin-bottom: 10px;
 	font-size: 20px;
+	/*font-weight: bold;*/
 }
 
 .grapics .cards div p:nth-child(2){
