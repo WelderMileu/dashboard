@@ -6,9 +6,9 @@
 	const myChart = new Chart(grafic01,{
 		type:'bar',
 		data:{
-			labels:['Red', 'Blue', 'Orange','Yellow','Green','Purple', 'Orange'],
+			labels:['Janeiro', 'Fevereiro', 'Março','Abril','Maio','Junho', 'Julho'],
 			datasets:[{
-				label:'# of votes',
+				label:'Media Mensal',
 				data:[12,19,3,5,2,3],
 				backgroundColor: [
                 	'rgba(54, 162, 235, 0.2)',
@@ -39,6 +39,46 @@
 	            }]
 	        }
 	    }
-	})
+	});
+
+	// Grafico 02
+	const grafic02 = document.getElementById('grafic02');
+	const myChart2 = new Chart(grafic02,{
+		type:'line',
+		data:{
+			labels:['2014', '2015', '2016','2017','2018','2019', '2020'],
+			datasets:[{
+				label:'Media Anual',
+				data:[12,19,3,5,2,3],
+				backgroundColor: [
+                	'rgba(54, 162, 235, 0.2)',
+                	'rgba(54, 162, 235, 0.2)',
+                	'rgba(54, 162, 235, 0.2)',
+                	'rgba(54, 162, 235, 0.2)',
+                	'rgba(54, 162, 235, 0.2)',
+                	'rgba(54, 162, 235, 0.2)'
+            	],
+            	borderColor: [
+                	'rgba(54, 162, 235, 0.2)',
+                	'rgba(54, 162, 235, 0.2)',
+                	'rgba(54, 162, 235, 0.2)',
+                	'rgba(54, 162, 235, 0.2)',
+                	'rgba(54, 162, 235, 0.2)',
+                	'rgba(54, 162, 235, 0.2)'
+            	],
+            	borderWidth: 1
+        	}]
+			
+		},
+	    options: {
+	        scales: {
+	            yAxes: [{
+	                ticks: {
+	                    beginAtZero: true
+	                }
+	            }]
+	        }
+	    }
+	});
 
 })();
