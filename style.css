@@ -12,6 +12,7 @@
 body {
 	font-family: 'Opens Sans', sans-serif;
 	font-size: 1.2rem;
+	background-color: #f1f1f1;
 }
 
 a {
@@ -101,7 +102,7 @@ a {
 .menu {
 	width: 250px;
 	height: 86vh;
-	background-color: var(--scale06);
+	background-color: var(--scale05);
 }
 
 .menu .user {
@@ -110,7 +111,7 @@ a {
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-	background-color: #fff;
+	background-color: #f1f1f1;
 }
 
 .menu .user .avatar{
