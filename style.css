@@ -33,7 +33,7 @@ a {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 10px 30px;
+	padding: 0px 30px;
 	background-color: var(--color01);
 	border-bottom: 3px solid var(--scale02);
 }
@@ -102,7 +102,8 @@ a {
 .menu {
 	width: 250px;
 	height: 86vh;
-	background-color: var(--scale05);
+	/*border-right:1px solid var(--scale05);*/
+	background-color: var(--scale06);
 }
 
 .menu .user {
@@ -112,6 +113,7 @@ a {
 	align-items: center;
 	text-align: center;
 	background-color: #f1f1f1;
+	margin-top: 20px;
 }
 
 .menu .user .avatar{
@@ -142,9 +144,9 @@ a {
 }
 
 .menu .user .saldo {
-	width: 80%;
+	width: 100%;
 	padding: 5px;
-	margin-right: 50px;
+	margin-right: 0px;
 	font-size: 13px;
 	color:var(--scale05);
 	font-weight: 600;
