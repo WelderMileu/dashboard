@@ -8,7 +8,7 @@
 		data:{
 			labels:['Janeiro', 'Fevereiro', 'Março','Abril','Maio','Junho', 'Julho'],
 			datasets:[{
-				label:'Media Mensal',
+				label:'Media Mensal (2020)',
 				data:[12,19,3,5,2,3],
 				backgroundColor: [
                 	'rgba(54, 162, 235, 0.2)',
@@ -49,6 +49,46 @@
 			labels:['2014', '2015', '2016','2017','2018','2019', '2020'],
 			datasets:[{
 				label:'Media Anual',
+				data:[12,19,3,5,2,3],
+				backgroundColor: [
+                	'rgba(54, 162, 235, 0.2)',
+                	'rgba(54, 162, 235, 0.2)',
+                	'rgba(54, 162, 235, 0.2)',
+                	'rgba(54, 162, 235, 0.2)',
+                	'rgba(54, 162, 235, 0.2)',
+                	'rgba(54, 162, 235, 0.2)'
+            	],
+            	borderColor: [
+                	'rgba(54, 162, 235, 0.2)',
+                	'rgba(54, 162, 235, 0.2)',
+                	'rgba(54, 162, 235, 0.2)',
+                	'rgba(54, 162, 235, 0.2)',
+                	'rgba(54, 162, 235, 0.2)',
+                	'rgba(54, 162, 235, 0.2)'
+            	],
+            	borderWidth: 1
+        	}]
+			
+		},
+	    options: {
+	        scales: {
+	            yAxes: [{
+	                ticks: {
+	                    beginAtZero: true
+	                }
+	            }]
+	        }
+	    }
+	});
+
+	// Grafico 03
+	const grafic03 = document.getElementById('grafic03');
+	const myChart3 = new Chart(grafic03,{
+		type:'radar',
+		data:{
+			labels:['2014', '2015', '2016','2017','2018','2019', '2020'],
+			datasets:[{
+				label:'Solido Anual',
 				data:[12,19,3,5,2,3],
 				backgroundColor: [
                 	'rgba(54, 162, 235, 0.2)',
