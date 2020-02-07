@@ -50,8 +50,8 @@ a {
 
 .body .nav .nav-brend span{
 	font-size: 20px;
-	color: var(--color01);
-	font-weight: bold;
+	color: orange;
+	font-weight: normal;
 	text-shadow: 1px 1px 1px orange; 
 }
 
