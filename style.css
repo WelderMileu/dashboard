@@ -51,7 +51,7 @@ a {
 	font-size: 20px;
 	color: var(--color01);
 	font-weight: bold;
-	text-shadow: 1px 1px 1px var(--verdeClaro); 
+	text-shadow: 1px 1px 1px orange; 
 }
 
 .body .nav .navbar .navbar-nav {
@@ -109,6 +109,7 @@ a {
 	justify-content: center;
 	align-items: center;
 	text-align: center;
+	background-color: #fff;
 }
 
 .menu .user .avatar{
@@ -134,12 +135,25 @@ a {
 }
 
 .menu .user .saldo {
-	width: 100%;
+	width: 80%;
 	padding: 5px;
-	font-size: 16px;
-	color:var(--scale02);
+	margin-right: 50px;
+	font-size: 13px;
+	color:var(--scale05);
 	font-weight: 600;
 	background-color: var(--color02);
+	position: relative;
+}
+
+.menu .user .saldo:before {
+	content: '';
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	background-color: var(--color02);
+	right: -10px;
+	top:14px;
+	transform: rotate(222deg);
 }
 
 .menu .user .saldo p {
@@ -191,13 +205,13 @@ a {
 	padding: 10px;
 	background-color: var(--scale05);
 	box-shadow: 5px 5px 5px var(--scale01);
+	border-radius: 5px;
 }
 
 .grapics .cards div p:nth-child(1){
 	color: var(--scale01);
 	margin-bottom: 10px;
 	font-size: 20px;
-	/*font-weight: bold;*/
 }
 
 .grapics .cards div p:nth-child(2){
