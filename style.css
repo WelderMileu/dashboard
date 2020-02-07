@@ -199,8 +199,20 @@ a {
 
 .grapics {
 	margin: 20px;
-	margin-top: 50px;
+	margin-top: 30px;
 	width: 80%;
+}
+
+.grapics .title {
+	margin-bottom: 15px;
+}
+
+.grapics .title h1 {
+	color:var(--scale02);
+}
+
+.grapics .title p {
+	color:var(--scale04);
 }
 
 .grapics .cards{
