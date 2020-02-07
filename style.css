@@ -205,6 +205,7 @@ a {
 
 .grapics .title {
 	margin-bottom: 15px;
+	padding-left: 10px;
 }
 
 .grapics .title h1 {
@@ -213,6 +214,7 @@ a {
 
 .grapics .title p {
 	color:var(--scale04);
+	font-size: 15px;
 }
 
 .grapics .cards{
