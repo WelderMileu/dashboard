@@ -309,6 +309,7 @@ a {
 	color:white;
 	font-size: 20px;
 	cursor: pointer;
+	display: none;
 }
 
 .toggle:before {
@@ -343,6 +344,7 @@ a {
 
 	.body .nav .bars {
 		display: block;
+		cursor: pointer;
 	}
 
 	.body .nav .bars i {
@@ -363,6 +365,10 @@ a {
 
 	.menu {
 		display: none;
+	}
+
+	.toggle {
+		display: flex;
 	}
 
 /* =====================================================================
