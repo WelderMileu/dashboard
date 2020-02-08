@@ -10,7 +10,6 @@
 }
 
 body {
-	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 1.2rem;
 	background-color: #f1f1f1;
 }
@@ -53,6 +52,7 @@ a {
 	color: orange;
 	font-weight: normal;
 	text-shadow: 1px 1px 1px orange; 
+	font-family: var(--font01);
 }
 
 .body .nav .navbar .navbar-nav {
@@ -66,14 +66,14 @@ a {
 }
 
 .body .nav .navbar .navbar-nav .nav-item .nav-link {
-	font-size: 15px;
+	font-size: 16px;
 }
 
 .body .nav .navbar .navbar-nav .nav-item p {
 	color:var(--scale05);
 	font-size: 14px;
 	padding: 5px;
-	font-family: "Source Sans Pro", sans-serif;
+	font-family: var(--font02);
 }
 
 .body .nav .navbar .navbar-nav .nav-item:nth-child(5) {
@@ -85,7 +85,7 @@ a {
 	padding: 10px 30px;
 	border-radius:20px;
 	font-size: 14px;
-	font-family: "Source Sans Pro", sans-serif;
+	font-family: var(--font02);
 	color: var(--scale06);
 	background-color: var(--verdeClaro);
 	box-shadow: inset -5px 2px 3px 1px var(--verdeEscuro);
@@ -104,7 +104,6 @@ a {
 .menu {
 	width: 250px;
 	height: 86vh;
-	/*border-right:1px solid var(--scale05);*/
 	background-color: var(--scale06);
 }
 
@@ -137,7 +136,7 @@ a {
 	font-size: 16px;
 	color:var(--scale01);
 	font-weight: bold;
-	font-family: 'Roboto', sans-serif;
+	font-family: var(--font02);
 }
 
 .menu .user .name p:nth-child(2){
@@ -155,7 +154,7 @@ a {
 	font-weight: normal;
 	background-color: var(--color02);
 	position: relative;
-	font-family: 'Roboto', sans-serif;
+	font-family: var(--font06);
 }
 
 .menu .user .saldo:before {
@@ -173,6 +172,7 @@ a {
 	font-weight: bold;
 	padding: 5px;
 	color: var(--scale06);
+	font-family: var(--font01);
 }
 
 .items {
@@ -192,6 +192,7 @@ a {
 .items ul li a {
 	font-size: 15px;
 	color: var(--scale01);
+	font-family: var(--font05);
 }
 
 .items ul li a i{
@@ -212,6 +213,7 @@ a {
 .grapics .title {
 	margin-bottom: 30px;
 	padding-left: 10px;
+	font-family: var(--font04);
 }
 
 .grapics .title h1 {
@@ -243,7 +245,7 @@ a {
 	color: var(--scale01);
 	margin-bottom: 10px;
 	font-size: 20px;
-	font-family: 'Merriweather', sans-serif;
+	font-family: var(--font01);
 }
 
 .grapics .cards div p:nth-child(2){

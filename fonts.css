@@ -20,3 +20,15 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700&display=swap');
+
+:root{
+	--font01:'Roboto', sans-serif;
+	--font02:'Source Sans Pro', sans-serif;
+	--font03:'Source Serif Pro', sans-serif;
+	--font04:'Lato', sans-serif;
+	--font05:'Montserrat', sans-serif;
+	--font06:'Merriweather', sans-serif;
+}
+
+
+
