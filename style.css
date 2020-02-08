@@ -78,7 +78,7 @@ a {
 
 .body .nav .navbar .navbar-nav .nav-item:nth-child(5) {
 	margin-top: 10px;
-	margin-left: 545px;
+	margin-left: 485px;
 }
 
 .body .nav .navbar .navbar-nav .nav-item:nth-child(5) .nav-link {
@@ -205,14 +205,14 @@ a {
    =====================================================================*/
 
 .grapics {
-	margin: 20px;
+	margin: 50px;
 	margin-top: 30px;
 	width: 80%;
 }
 
 .grapics .title {
 	margin-bottom: 30px;
-	padding-left: 10px;
+	padding-left: 25px;
 	font-family: var(--font04);
 }
 
@@ -233,7 +233,7 @@ a {
 }
 
 .grapics .cards div{
-	width: 340px;
+	width: 300px;
 	padding: 10px;
 	background-color: var(--scale05);
 	box-shadow: 5px 5px 5px var(--scale01);
