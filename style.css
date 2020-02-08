@@ -25,7 +25,7 @@ a {
 
 
 /* =====================================================================
-							Cabeçalho da Aplicação
+	Cabeçalho da Aplicação
    =====================================================================*/
 
 .body .nav {
@@ -65,6 +65,13 @@ a {
 	text-align: center;
 }
 
+.body .nav .navbar {
+	width: 73%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
 .body .nav .navbar .navbar-nav .nav-item .nav-link {
 	font-size: 16px;
 }
@@ -76,14 +83,14 @@ a {
 	font-family: var(--font02);
 }
 
-.body .nav .navbar .navbar-nav .nav-item:nth-child(5) {
+.body .nav .navbar .btn-sign {
 	margin-top: 10px;
-	margin-left: 450px;
 }
 
-.body .nav .navbar .navbar-nav .nav-item:nth-child(5) .nav-link {
+.body .nav .navbar .btn-sign {
 	padding: 10px 30px;
 	border-radius:20px;
+	border:none;
 	font-size: 17px;
 	font-family: var(--font02);
 	color: var(--scale06);
@@ -95,9 +102,12 @@ a {
 	color:var(--scale04);
 }
 
+.body .nav .bars {
+	display: none;
+}
 
 /* =====================================================================
-							Menu da Aplicação
+	Menu da Aplicação
    =====================================================================*/
 
 
@@ -204,7 +214,7 @@ a {
 
 
 /* =====================================================================
-							Garficos da nossa Aplicação
+	Garficos da nossa Aplicação
    =====================================================================*/
 
 .grapics {
@@ -232,12 +242,14 @@ a {
 .grapics .cards{
 	display: flex;
 	justify-content: space-around;
-	align-items: center
+	align-items: center;
+	flex-wrap: wrap;
 }
 
 .grapics .cards div{
 	width: 300px;
 	padding: 10px;
+	margin-bottom: 10px;
 	background-color: var(--scale05);
 	box-shadow: 5px 5px 5px var(--scale01);
 	border-radius: 5px;
@@ -256,9 +268,45 @@ a {
 	font-size: 20px;
 }
 
+/* =====================================================================
+	Reponsividade do site
+   =====================================================================*/
 
 
+@media screen and (max-width: 768px) {
 
+/* =====================================================================
+	Cabeçalho
+   =====================================================================*/
+
+	.body .nav {
+		justify-content: space-between;
+		padding: 5px 50px;
+	}
+
+	.body .nav .bars {
+		display: block;
+	}
+
+	.body .nav .bars i {
+		color:white;
+		font-size: 30px;
+	}
+
+	.body .nav .navbar {
+		display: none;
+	}
+
+
+/* =====================================================================
+	Menu
+   =====================================================================*/
+
+	.menu {
+		display: none;
+	}
+
+}
 
 
 

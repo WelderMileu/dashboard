@@ -34,10 +34,14 @@
 							<a href="#" class="nav-link"><i class="fa fa-commenting"></i></a><br>
 							<p>Commenting</p>
 						</li>
-						<li class="nav-item">
-							<a href="#" class="nav-link"><i class="fa fa-sign-out"></i> Sign Out</a>
-						</li>
 					</ul>
+
+					<button class="btn-sign">
+						<i class="fa fa-sign-out"></i> Sign Out
+					</button>
+				</div>
+				<div class="bars">
+					<i class="fa fa-bars"></i>
 				</div>
 			</nav>
 			<div class="group" style="display: flex;">
@@ -82,10 +86,16 @@
 							<p>R$ 189.315,98</p>
 						</div>
 					</div>
-					<div class="graficos" style="width: 300px;margin-top: 50px;display: flex;flex-direction:row;">
-						<canvas id="grafic01" width="500" height="500" style="margin-left: 20px"></canvas>
-						<canvas id="grafic02" width="500" height="500" style="margin-left: 20px"></canvas>
-						<canvas id="grafic03" width="500" height="500" style="margin-left: 20px"></canvas>
+					<div class="graficos" style="margin-top: 50px;display: flex;flex-direction:row; flex-wrap: wrap;">
+						<div style="width: 300px">
+							<canvas id="grafic01" width="230" height="230" style="margin-left: 20px"></canvas>
+						</div>
+						<div style="width: 300px">
+							<canvas id="grafic02" width="230" height="230" style="margin-left: 20px"></canvas>
+						</div>
+						<div style="width: 300px">
+							<canvas id="grafic03" width="230" height="230" style="margin-left: 20px"></canvas>
+						</div>
 					</div>
 				</section>
 			</div>
