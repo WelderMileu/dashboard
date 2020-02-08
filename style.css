@@ -140,7 +140,7 @@ a {
 }
 
 .menu .user .name p:nth-child(2){
-	font-size: 12px;
+	font-size: 14px;
 	font-weight: normal;
 	color:var(--scale02);
 }
