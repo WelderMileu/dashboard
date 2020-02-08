@@ -171,7 +171,6 @@ a {
 	background-color: var(--color02);
 	position: relative;
 	font-family: var(--font03);
-	border:2px solid black;
 }
 
 .menu .user .saldo:before {
@@ -180,11 +179,10 @@ a {
 	width: 20px;
 	height: 20px;
 	background-color: var(--color02);
-	right: -12px;
+	right: -10px;
 	top:14px;
 	transform: rotate(225deg);
-	border-left:2px solid black;
-	border-bottom:2px solid black;
+	border-left:1px solid black;
 }
 
 .menu .user .saldo p {
