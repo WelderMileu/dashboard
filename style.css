@@ -391,9 +391,19 @@ a {
 		display: flex;
 	}
 
+	.toggle-menu-menu {
+		display: block !important;
+		position: fixed;
+		top:70px;
+		z-index: -1;
+	}
+
 /* =====================================================================
 	Graficos
    =====================================================================*/
+	.grapics {
+		z-index: -2;
+	}
 
 	.grapics .cards div{
 		width: 100%;
