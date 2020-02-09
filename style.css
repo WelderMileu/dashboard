@@ -291,7 +291,7 @@ a {
 	Icones flutuantes
    =====================================================================*/
 
-.toggle {
+.icon-toggle {
 	position: fixed;
 	opacity: .8;
 	top:80px;
@@ -310,7 +310,7 @@ a {
 	display: none;
 }
 
-.toggle:before {
+.icon-toggle:before {
 	content: '';
 	position: absolute;
 	width: 20px;
@@ -319,7 +319,7 @@ a {
 	right:33px;
 	transform: rotate(120deg);
 	background-color: var(--verdeClaro);
-	z-index: -1;
+	z-index: -1; 
 }
 
 /* =====================================================================
@@ -352,11 +352,33 @@ a {
 
 	.body .nav .navbar {
 		display: none;
+		height: 20px;
+		border-radius: 20px;
+		transition: .5s !important;
 	}
 
 	.group {
 		padding-top: 100px;
 	}
+	
+	.toggle-header {
+		display: flex !important;
+		width: 100%;
+		height: 400px !important;
+		padding: 20px;
+		top:70px;
+		flex-direction: column;
+		position: absolute;
+		background-color: var(--color01);
+		transition: .5s !important;
+	}
+
+	.toggle-header .navbar-nav {
+		display: flex;
+		flex-direction: column;
+	}
+
+
 /* =====================================================================
 	Menu
    =====================================================================*/
@@ -365,7 +387,7 @@ a {
 		display: none;
 	}
 
-	.toggle {
+	.icon-toggle {
 		display: flex;
 	}
 
