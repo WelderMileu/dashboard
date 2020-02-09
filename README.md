@@ -2,4 +2,4 @@
 
 ` Importants `
 
-- [] Deixar os menus de forma suave.
+- [ ] Deixar os menus de forma suave.
