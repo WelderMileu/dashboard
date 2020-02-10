@@ -1,13 +1,15 @@
 # Dashboard ( Aplicação em desenvolvimento )
 
-- Aplicação no Desktop
+### Aplicação no Desktop
 
 ![ Desktop ](image/desktop.png) 
 
-- Aplicação no Mobile
+### Aplicação no Mobile
 
 ![ Mobile ](image/mobile.png)
 
-- Importants 
+---
+
+#### Importants 
 
 - [ ] Deixar os menus de forma suave.
