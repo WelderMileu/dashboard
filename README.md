@@ -1,4 +1,4 @@
-# Dashboard em desenvolvimento
+# Dashboard ( Aplicação em desenvolvimento )
 
 - Aplicação no Desktop
 
